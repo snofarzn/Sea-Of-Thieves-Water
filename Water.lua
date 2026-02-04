@@ -1,5 +1,5 @@
 -- Gerstnder Wave (Sea Of Thieves Waves)
--- By Kaiji, Kyi, aethersword
+-- By Kaiji, Kyi, aethersword, c6Fontaine, farzn
 
 
 export type WaveInfo = {
@@ -2956,5 +2956,6 @@ Actor:BindToMessage('Compute', function(waves, Plane: MeshPart, EditableMesh: Ed
 	end)
 
 end)
+
 
 
