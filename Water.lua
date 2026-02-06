@@ -413,11 +413,7 @@ return {
 }
 
 setup module
---!strict
---[[
-	@FlameEmber06
-	Setup helper module in order to define the plane mesh, as well as subdivide and stitch vertices.
-]]
+
 
 local AssetService = game:GetService('AssetService')
 local ReplicatedStorage = game:GetService('ReplicatedStorage')
@@ -943,14 +939,7 @@ return Setup
 
 
 heightlookup module
---!native
---!optimize 2
---!strict
 
---[[
-	@FlameEmber06
-	Performant and accurate height lookup module for the ocean.
-]]
 
 local QuadInfo = {}
 local IS_SERVER = game:GetService('RunService'):IsServer()
@@ -2948,6 +2937,7 @@ Actor:BindToMessage('Compute', function(waves, Plane: MeshPart, EditableMesh: Ed
 	end)
 
 end)
+
 
 
 
